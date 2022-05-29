@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Yoga</string>
+    <string name="desc1">BHUJANGASANA</string>
+    <string name="desc2">VIRABHADRASANA</string>
+    <string name="desc3">HANUMANASANA</string>
+    <string name="desc4">VIRASANA</string>
+    <string name="brief" translatable="false"><font size="50">Let\'s do Yoga!</font></string>
+    <string name="benefits" translatable="false"><font size="20">Select an asana from above</font></string>
+    <string name="method" translatable="false"><font size="20" /></string>
+</resources>
