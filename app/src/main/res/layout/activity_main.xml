@@ -20,36 +20,12 @@
         android:layout_width="95dp"
         android:layout_height="95dp"
         android:layout_marginTop="10dp"
-        android:layout_x="308dp"
+        android:layout_x="304dp"
         android:layout_y="5dp"
         android:background="@drawable/virasana"
+        android:contentDescription="@string/desc4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:contentDescription="@string/desc4" />
-
-    <ImageButton
-        android:id="@+id/button2"
-        android:layout_width="95dp"
-        android:layout_height="95dp"
-        android:layout_marginTop="10dp"
-        android:layout_x="108dp"
-        android:layout_y="5dp"
-        android:foreground="@drawable/v"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:contentDescription="@string/desc2" />
-
-    <ImageButton
-        android:id="@+id/button3"
-        android:layout_width="95dp"
-        android:layout_height="95dp"
-        android:layout_marginTop="10dp"
-        android:layout_x="208dp"
-        android:layout_y="5dp"
-        android:background="@drawable/h"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:contentDescription="@string/desc3" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/button1"
@@ -57,12 +33,36 @@
         android:layout_height="95dp"
         android:layout_margin="4dp"
         android:layout_marginTop="4dp"
-        android:layout_x="8dp"
+        android:layout_x="4dp"
         android:layout_y="5dp"
         android:background="@drawable/b"
+        android:contentDescription="@string/desc1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:contentDescription="@string/desc1" />
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="10dp"
+        android:layout_x="204dp"
+        android:layout_y="5dp"
+        android:background="@drawable/h"
+        android:contentDescription="@string/desc3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="10dp"
+        android:layout_x="104dp"
+        android:layout_y="5dp"
+        android:contentDescription="@string/desc2"
+        android:background="@drawable/v"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <View
         android:layout_width="0dp"
@@ -87,7 +87,6 @@
         android:id="@+id/brief"
         android:layout_width="387dp"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         android:layout_x="9dp"
         android:layout_y="119dp"
         android:gravity="center"
@@ -97,7 +96,6 @@
         android:id="@+id/benefits"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_x="1dp"
         android:layout_y="478dp"
         android:gravity="center"
